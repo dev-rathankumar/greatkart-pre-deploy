@@ -76,23 +76,23 @@
                                           				</p>
                                                 </td>
                                                 <td class="text-center">{{item.quantity}}</td>
-                                                <td class="text-center">${{item.product_price}} USD</td>
+                                                <td class="text-center">₹{{item.product_price}} USD</td>
                                             </tr>
                                           {% endfor %}
                                         </tbody>
                                         <tfoot>
                                             <tr>
                                                 <th colspan="2" class="text-right">Sub Total:</th>
-                                                <th class="text-center">${{subtotal}} USD</th>
+                                                <th class="text-center">₹{{subtotal}} USD</th>
                                             </tr>
                                             <tr>
                                                 <th colspan="2" class="text-right">Tax:</th>
-                                                <th class="text-center">${{order.tax}} USD</th>
+                                                <th class="text-center">₹{{order.tax}} USD</th>
                                             </tr>
 
                                             <tr>
                                                 <th colspan="2" class="text-right">Grand Total:</th>
-                                                <th class="text-center">${{order.order_total}} USD</th>
+                                                <th class="text-center">₹{{order.order_total}} USD</th>
                                             </tr>
                                         </tfoot>
                                     </table>
