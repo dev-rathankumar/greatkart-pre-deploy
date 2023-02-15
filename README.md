@@ -37,7 +37,7 @@ _Learn how to build these [complex functionalities from the scratch](https://www
     EMAIL_HOST_PASSWORD=yourStrongPassword
     EMAIL_USE_TLS=True
     ```
-    _Note: If you are using gmail account, make sure you [turn ON the less secure apps](https://myaccount.google.com/lesssecureapps)_
+    _Note: If you are using gmail account, make sure to [use app password](https://support.google.com/accounts/answer/185833)_
 9. Create database tables
     ```sh
     python manage.py migrate
